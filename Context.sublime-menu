@@ -206,8 +206,17 @@
 	    				"caption": "Decoders",
 	    				"children": [
 	    					{
-	    						"caption": "Base64 to String",
+	    						"caption": "Base64Decode",
 	    						"command": "base64decode"
+	    					}
+	    				]
+	    			},
+	    			{
+	    				"caption": "Encoders",
+	    				"children": [
+	    					{
+	    						"caption": "Base64Encode",
+	    						"command": "base64encode"
 	    					}
 	    				]
 	    			},
