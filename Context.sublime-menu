@@ -1,0 +1,297 @@
+[
+	{
+	    "id" : "threathunterspack",
+	    "caption" : "Threat hunters pack",
+	    "children": [
+	    	{
+	    		"caption": "Documentation",
+	    		"children": [
+	    			{
+	    				"caption": "Asciidoctor",
+	    				"children": [
+	    					{
+								"caption": "Master Page",
+								"command": "loadtemplate",
+								"args": {
+									"module": "asciidoctor",
+									"template": "masterpage"
+								},
+					    	},
+					    	{
+					    		"caption": "Admonitions",
+					    		"children": [
+					    			{
+					    				"caption": "Blocks",
+					    				"children": [
+											{
+												"caption": "Caution",
+												"command": "loadtemplate",
+												"args": {
+													"module": "asciidoctor",
+													"template": "admonition_block_caution"
+												}
+											},
+											{
+												"caption": "Important",
+												"command": "loadtemplate",
+												"args": {
+													"module": "asciidoctor",
+													"template": "admonition_block_important"
+												}
+											},
+											{
+												"caption": "Note",
+												"command": "loadtemplate",
+												"args": {
+													"module": "asciidoctor",
+													"template": "admonition_block_note"
+												}
+											},
+											{
+												"caption": "Tip block",
+												"command": "loadtemplate",
+												"args": {
+													"module": "asciidoctor",
+													"template": "admonition_block_tip"
+												}
+											},
+											{
+												"caption": "Warning block",
+												"command": "loadtemplate",
+												"args": {
+													"module": "asciidoctor",
+													"template": "admonition_block_warning"
+												}
+											},
+					    				]
+					    			},
+					    			{
+					    				"caption": "Paragraph",
+					    				"children": [
+											{
+												"caption": "Caution",
+												"command": "loadtemplate",
+												"args": {
+													"module": "asciidoctor",
+													"template": "admonition_paragraph_caution"
+												}
+											},
+
+											{
+												"caption": "Important",
+												"command": "loadtemplate",
+												"args": {
+													"module": "asciidoctor",
+													"template": "admonition_paragraph_important"
+												}
+											},
+											{
+												"caption": "Note",
+												"command": "loadtemplate",
+												"args": {
+													"module": "asciidoctor",
+													"template": "admonition_paragraph_note"
+												}
+											},
+											{
+												"caption": "Tip",
+												"command": "loadtemplate",
+												"args": {
+													"module": "asciidoctor",
+													"template": "admonition_paragraph_tip"
+												}
+											},
+											{
+												"caption": "Warning",
+												"command": "loadtemplate",
+												"args": {
+													"module": "asciidoctor",
+													"template": "admonition_paragraph_warning"
+												}
+											},
+										]
+					    			}
+					    		]
+					    	},
+					    	{
+								"caption": "Sections",
+								"children": [
+									{
+										"caption": "Document Title",
+										"command": "loadtemplate",
+										"args": {
+											"module": "asciidoctor",
+											"template": "section_level_0"
+										}
+									},
+									{
+										"caption": "Level 1",
+										"command": "loadtemplate",
+										"args": {
+											"module": "asciidoctor",
+											"template": "section_level_1"
+										}
+									},
+									{
+										"caption": "Level 2",
+										"command": "loadtemplate",
+										"args": {
+											"module": "asciidoctor",
+											"template": "section_level_2"
+										}
+									},
+									{
+										"caption": "Level 3",
+										"command": "loadtemplate",
+										"args": {
+											"module": "asciidoctor",
+											"template": "section_level_3"
+										}
+									},
+									{
+										"caption": "Level 4",
+										"command": "loadtemplate",
+										"args": {
+											"module": "asciidoctor",
+											"template": "section_level_4"
+										}
+									},
+									{
+										"caption": "Level 5",
+										"command": "loadtemplate",
+										"args": {
+											"module": "asciidoctor",
+											"template": "section_level_5"
+										}
+									},
+								]
+							},
+							{
+								"caption": "Source code",
+								"command": "loadtemplate",
+								"args": {
+									"module": "asciidoctor",
+									"template": "source_code"
+								}
+							},
+							{
+								"caption": "Tables",
+								"children": [
+									{
+										"caption": "Advanced",
+										"command": "loadtemplate",
+										"args": {
+											"module": "asciidoctor",
+											"template": "table_advanced"
+										}
+									},
+									{
+										"caption": "Regular",
+										"command": "loadtemplate",
+										"args": {
+											"module": "asciidoctor",
+											"template": "table_regular"
+										}
+									}
+								]
+							}
+	    				]
+	    			},
+	    		],
+	    	},
+	    	{
+	    		"caption": "Tools",
+	    		"children": [
+	    			{
+	    				"caption": "Decoders",
+	    				"children": [
+	    					{
+	    						"caption": "Base64 to String",
+	    						"command": "base64decode"
+	    					}
+	    				]
+	    			},
+	    			{
+	    				"caption": "IPv4",
+	    				"children": [
+	    					{
+			    				"caption": "Divide network segments",
+			    				"command": "divideipv4segments"
+			    			},
+							{
+			    				"caption": "Extract from text",
+			    				"command": "ipv4extractfromtext"
+			    			},
+			    			{
+			    				"caption": "Extract bracketed from text",
+			    				"command": "ipv4extractbracketedfromtext"
+			    			},
+			    			{
+			    				"caption": "Remove duplicates",
+			    				"command": "removeduplicatelines"
+			    			}
+	    				]
+	    			}, 
+	    			{
+	    				"caption": "Readability",
+	    				"children": [
+	    					{
+	    						"caption": "Spaced equals sign",
+	    						"command": "splittext",
+	    						"args": {
+	    							"delimiter": "=",
+	    							"replacer": " = "
+	    						}
+	    					}
+	    				]
+	    			},
+	    			{
+	    				"caption": "Text split",
+	    				"children": [
+		    				{
+	    						"caption": "Comma",
+	    						"command": "splittext",
+	    						"args": {
+	    							"delimiter": ",",
+	    							"replacer": "\n"
+	    						}
+	    					},
+		    				{
+	    						"caption": "Period",
+	    						"command": "splittext",
+	    						"args": {
+	    							"delimiter": ".",
+	    							"replacer": "\n"
+	    						}
+	    					},
+		    				{
+	    						"caption": "Semicolon",
+	    						"command": "splittext",
+	    						"args": {
+	    							"delimiter": ";",
+	    							"replacer": "\n"
+	    						}
+	    					},
+		    				{
+	    						"caption": "Tab",
+	    						"command": "splittext",
+	    						"args": {
+	    							"delimiter": "\t",
+	    							"replacer": "\n"
+	    						}
+	    					},
+		    				{
+	    						"caption": "White space",
+	    						"command": "splittext",
+	    						"args": {
+	    							"delimiter": " ",
+	    							"replacer": "\n"
+	    						}
+	    					}
+	    				]
+	    			}
+	    		]
+	    	}
+    	]
+	}
+]
