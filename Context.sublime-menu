@@ -203,19 +203,14 @@
 	    		"caption": "Tools",
 	    		"children": [
 	    			{
-	    				"caption": "Decoders",
+	    				"caption": "Base64",
 	    				"children": [
 	    					{
-	    						"caption": "Base64Decode",
+	    						"caption": "Decode",
 	    						"command": "base64decode"
-	    					}
-	    				]
-	    			},
-	    			{
-	    				"caption": "Encoders",
-	    				"children": [
-	    					{
-	    						"caption": "Base64Encode",
+	    					},
+	    						    					{
+	    						"caption": "Encode",
 	    						"command": "base64encode"
 	    					}
 	    				]
@@ -298,7 +293,20 @@
 	    						}
 	    					}
 	    				]
-	    			}
+	    			},
+	    			{
+	    				"caption": "URL",
+	    				"children": [
+	    					{
+	    						"caption": "Decode",
+	    						"command": "urldecode"
+	    					},
+	    					{
+	    						"caption": "Encode",
+	    						"command": "urlencode"
+	    					}
+	    				]
+	    			},
 	    		]
 	    	}
     	]
