@@ -240,6 +240,13 @@
 	    				"caption": "Readability",
 	    				"children": [
 	    					{
+	    						"caption": "JSON pretty print",
+	    						"command": "jsonpprint",
+	    						"args": {
+	    							"indent": 4
+	    						}
+	    					},
+	    					{
 	    						"caption": "Spaced equals sign",
 	    						"command": "splittext",
 	    						"args": {
