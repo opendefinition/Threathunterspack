@@ -200,6 +200,15 @@
 	    		],
 	    	},
 	    	{
+	    		"caption": "Elastic",
+	    		"children": [
+	    			{
+	    				"caption": "OR filter",
+	    				"command": "elasticorfilter"
+	    			}
+				]
+	    	},
+	    	{
 	    		"caption": "Tools",
 	    		"children": [
 	    			{
@@ -264,6 +273,14 @@
 	    						"command": "splittext",
 	    						"args": {
 	    							"delimiter": ",",
+	    							"replacer": "\n"
+	    						}
+	    					},
+	    					{
+	    						"caption": "Bar",
+	    						"command": "splittext",
+	    						"args": {
+	    							"delimiter": "|",
 	    							"replacer": "\n"
 	    						}
 	    					},
