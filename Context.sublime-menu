@@ -200,6 +200,19 @@
 	    		],
 	    	},
 	    	{
+	    		"caption": "Reporting",
+	    		"children": [
+	    			{
+	    				"caption": "Incident",
+	    				"command": "loadtemplate",
+	    				"args": {
+	    					"module": "reports",
+	    					"template": "incident"
+	    				}
+	    			}
+	    		]
+	    	},
+	    	{
 	    		"caption": "Elastic",
 	    		"children": [
 	    			{

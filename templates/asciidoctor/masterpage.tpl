@@ -5,6 +5,8 @@ Author Name <email@example.org>
 :doctype: book
 :sectnums:
 :toc:
+:toclevels: 5
+:chapter-label:
 
 <<<
 

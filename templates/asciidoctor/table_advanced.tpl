@@ -1,5 +1,4 @@
-
-[cols="3*"] 
+[cols="3*",options="header",stripes=none]
 |===
 |Cell in column 1, row 1
 |Cell in column 2, row 1
