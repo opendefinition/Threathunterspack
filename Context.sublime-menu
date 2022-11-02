@@ -218,6 +218,11 @@
 	    			{
 	    				"caption": "OR filter",
 	    				"command": "elasticorfilter"
+	    			},
+	    			{
+	    				"caption": "Regexify Text",
+	    				"command": "elasticregexifytext"
+
 	    			}
 				]
 	    	},
