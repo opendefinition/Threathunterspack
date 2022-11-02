@@ -1,4 +1,14 @@
-= Incident Report 
+= Incident report: Customer Name Here
+Author Name <email@example.org>
+:source-highlighter: rouge
+:icons: font
+:doctype: book
+:sectnums:
+:toc:
+:toclevels: 5
+:chapter-label:
+
+<<<
 
 == Roles
 
@@ -23,7 +33,7 @@
 | Date 
 | Time
 | Activity
-| Reponsible
+| Responsible
 
 |
 |

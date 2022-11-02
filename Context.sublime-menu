@@ -223,7 +223,15 @@
 	    				"caption": "Regexify Text",
 	    				"command": "elasticregexifytext"
 
-	    			}
+	    			},
+	    			{
+						"caption": "Elastic DSL Filter",
+						"command": "loadtemplate",
+						"args": {
+							"module": "elastic",
+							"template": "dsl"
+						}
+					},
 				]
 	    	},
 	    	{
