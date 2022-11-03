@@ -200,19 +200,6 @@
 	    		],
 	    	},
 	    	{
-	    		"caption": "Reporting",
-	    		"children": [
-	    			{
-	    				"caption": "Incident",
-	    				"command": "loadtemplate",
-	    				"args": {
-	    					"module": "reports",
-	    					"template": "incident"
-	    				}
-	    			}
-	    		]
-	    	},
-	    	{
 	    		"caption": "Elastic",
 	    		"children": [
 	    			{
@@ -233,6 +220,19 @@
 						}
 					},
 				]
+	    	},
+	    	{
+	    		"caption": "Reporting",
+	    		"children": [
+	    			{
+	    				"caption": "Incident",
+	    				"command": "loadtemplate",
+	    				"args": {
+	    					"module": "reports",
+	    					"template": "incident"
+	    				}
+	    			}
+	    		]
 	    	},
 	    	{
 	    		"caption": "Tools",
@@ -358,7 +358,20 @@
 	    				]
 	    			},
 	    		]
-	    	}
+	    	},
+	    	{
+	    		"caption": "Yara",
+	    		"children": [
+	    			{
+						"caption": "Rule Template",
+						"command": "loadtemplate",
+						"args": {
+							"module": "yara",
+							"template": "master"
+						}
+					},
+				]
+	    	},
     	]
 	}
 ]
