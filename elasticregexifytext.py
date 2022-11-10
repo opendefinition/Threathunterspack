@@ -4,7 +4,7 @@ import sublime_plugin
 class ElasticregexifytextCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		sel = self.view.sel()[0]
-		selected = self.view.substr(sel)
+		selected = self.view.substr(sel).strip()
 
 		replacements = [
 			".",
@@ -20,13 +20,15 @@ class ElasticregexifytextCommand(sublime_plugin.TextCommand):
 			"]",
 			"{",
 			"}",
-			"|"
+			"\""
 		]
 
 		legal = [
 			"_",
 			":",
-			"&"
+			"&",
+			"%",
+			"|",
 		]
 		
 		char_regx = ""
@@ -34,7 +36,7 @@ class ElasticregexifytextCommand(sublime_plugin.TextCommand):
 			if char.isdigit() or char in legal:
 				char_regx += char
 			elif char is " ":
-				char_regx += "\\s"
+				char_regx += ".{1}"
 			elif char is "\\":
 				char_regx += "\\\\"
 			elif char in replacements:
