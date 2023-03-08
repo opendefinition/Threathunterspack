@@ -175,6 +175,14 @@
 								}
 							},
 							{
+								"caption": "QA",
+								"command": "loadtemplate",
+								"args": {
+									"module": "asciidoctor",
+									"template": "questions-and-answers"
+								}
+							},
+							{
 								"caption": "Tables",
 								"children": [
 									{
